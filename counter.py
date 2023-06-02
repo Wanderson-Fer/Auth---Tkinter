@@ -52,5 +52,6 @@ class Aplication:
 
 if __name__ == '__main__':
     root = tk.Tk()
+    root.title('Counter')
     Aplication(root)
     root.mainloop()
