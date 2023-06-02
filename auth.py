@@ -61,7 +61,6 @@ class Application:
         self.mensagem['font'] = ('Arial', '12', 'bold')
         self.mensagem.pack(side=tk.TOP)
 
-
     def verificar_senha(self):
         user = self.nomeEntry.get()
         pwd = self.senhaEntry.get()
